@@ -1,1 +1,19 @@
-#custom styles
+/* Change background and text colors */
+body {
+  background-color: #ffe6de; /* change to any hex code you like */
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  color: #333;
+}
+
+/* Change link colors */
+a {
+  color: #d16ba5;
+}
+a:hover {
+  color: #ff758f;
+}
+
+/* Page title style */
+h1, h2, h3 {
+  font-family: 'Georgia', serif;
+}
