@@ -1,15 +1,14 @@
-# _config.yml
-
 title: "Anisa Davis"
 description: "Visual Artist & Game Developer"
-theme: minima #jekyll-theme-midnight
+theme: minima
 
-# Navigation menu items — pages you’ll create
 header_pages:
   - about.md
   - projects.md
   - art.md
   - contact.md
 
-# Optional: show last updated date on posts/pages
-show_last_updated_at: true
+# Tell Jekyll to load your custom CSS
+sass:
+  style: compressed
+
